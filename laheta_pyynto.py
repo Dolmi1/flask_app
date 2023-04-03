@@ -11,4 +11,4 @@ while(True):
 
     viesti = json.dumps(mittaus)
 
-    vastaus = requests.post('https://localhost:5000/lisaa', data=viesti)
+    vastaus = requests.post('http://localhost:5000/lisaakantaan', data=viesti)
